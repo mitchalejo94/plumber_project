@@ -1,12 +1,23 @@
 import "./NavigationBar.css";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+
 const NavigationBar = () => {
   return (
-    <div>
-      <div className="links">
-        <h1>Services</h1>
-        <h1>About us</h1>
-      </div>
-    </div>
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">ABC Electrical and Plumbing</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">About Us</Nav.Link>
+            <Nav.Link href="#link">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 export default NavigationBar;
