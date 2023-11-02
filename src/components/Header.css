@@ -1,0 +1,22 @@
+.title {
+  border: solid red;
+}
+
+.title:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+#header {
+  border: solid white;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  color: green;
+  border: solid green;
+}
+.links {
+  color: blue;
+  border: solid blue;
+}
