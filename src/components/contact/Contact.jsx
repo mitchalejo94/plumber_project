@@ -2,7 +2,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div id="footer">
-      <h1 id="">contact page</h1>
+      <h1 id="">Contact Page</h1>
     </div>
   );
 };
