@@ -1,0 +1,8 @@
+.bg-body-tertiary {
+  /* background: linear-gradient(to right, red, yellow, blue); */
+  border: solid black;
+}
+.me-auto {
+  font-weight: bolder;
+  color: black;
+}

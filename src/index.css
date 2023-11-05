@@ -67,3 +67,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+body {
+  background-color: #33415c;
+  /* background: linear-gradient(to right, red, yellow, blue); */
+  /* color: black; */
+}
