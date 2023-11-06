@@ -1,0 +1,12 @@
+.bg-body-tertiary {
+  /* background: linear-gradient(to bottom, #a10220, #ffc917, #002b53); */
+  border: solid #e0dcdc;
+}
+.me-auto {
+  font-weight: bolder;
+  color: black;
+  /* border: solid #e0dcdc; */
+}
+.navigationBar {
+  border: solid #e0dcdc;
+}

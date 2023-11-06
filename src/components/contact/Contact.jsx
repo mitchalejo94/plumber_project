@@ -2,7 +2,7 @@ import "./contact.css";
 // import { GoogleApiWrapper, Map, Marker } from "google-maps-react";
 const Contact = () => {
   return (
-    <div id="contact">
+    <div className="jumbotron" id="contact">
       <h1 id="">For a free estimate contact us at ____ </h1>
       <h1>Include link for youtube and Facebook.</h1>
       <h1>Business hours </h1>

@@ -2,7 +2,7 @@
 import "./about.css";
 const About = () => {
   return (
-    <div className="job-cards">
+    <div className="jumbotron">
       <h1>
         This is our About Us page Who we are? How long have been in the field?
         What locations do we cover?

@@ -1,7 +1,7 @@
 import "./Projects.css";
 const Project = () => {
   return (
-    <div>
+    <div className="jumbotron" id="projectJumbotron">
       <h1 className="title">
         {" "}
         This is where we will have a listing about our jobs/projects

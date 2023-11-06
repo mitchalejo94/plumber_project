@@ -1,13 +1,5 @@
-.home-container {
-  background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,w_2121,h_1193,x_0,y_184/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gq04zf1k6cacvhmadb.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* Add other styles as needed */
-}
-
-.jumbotron {
-  background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,w_2121,h_1193,x_0,y_184/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gq04zf1k6cacvhmadb.jpg");
+#homeJumbotron {
+  background-image: url(../../assets/images/fox.webp);
   background-position: center;
   font-family: "Oswald", sans-serif;
   color: white;
@@ -17,7 +9,6 @@
 }
 
 .jobList {
-  font-size: 40px; /* Adjust this value to move the text up or down as needed */
-  /* font-size: 2.5rem; Adjust the font size as needed */
+  font-size: 40px;
   text-align: left;
 }

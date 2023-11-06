@@ -8,3 +8,13 @@
 
   /* background: linear-gradient(to right, red, yellow, blue); */
 }
+.footerContainer {
+  background-color: aliceblue;
+  background: linear-gradient(to bottom, #a10220, #ffc917, #002b53);
+}
+.footerLinks {
+  color: black;
+  border: solid red;
+  text-decoration: none;
+  color: inherit;
+}
