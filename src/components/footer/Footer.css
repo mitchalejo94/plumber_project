@@ -1,20 +1,40 @@
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 80%;
-  height: auto;
-  margin-top: auto;
-  /* color: aliceblue; */
-
-  /* background: linear-gradient(to right, red, yellow, blue); */
+.logos img {
+  max-width: 4rem;
 }
-.footerContainer {
-  background-color: aliceblue;
-  background: linear-gradient(to bottom, #a10220, #ffc917, #002b53);
+.footer a {
+  color: white; /* Replace 'your-desired-text-color' with the color you want */
+  text-decoration: none;
 }
-.footerLinks {
+/* .footerContainer {
+  border: solid blue;
+  background-color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerText {
   color: black;
   border: solid red;
   text-decoration: none;
   color: inherit;
 }
+.footerLinks {
+  color: black;
+  border: solid yellow;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footerLogos img {
+  max-width: 40px; 
+  border: solid green;
+  display: flex;
+  justify-content: flex-end;
+}
+#llc {
+  border: solid blue;
+}
+.footerLogos {
+  display: inline;
+  font-size: 2px;
+} */

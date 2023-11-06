@@ -6,11 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 const NavigationBar = () => {
   return (
     <div className="navigationBar">
-      <Navbar
-        className="navbar navbar-dark bg-dark"
-        expand="lg"
-        // className="bg-body-tertiary"
-      >
+      <Navbar className="navbar navbar-dark bg-dark" expand="lg">
         <Container>
           <Navbar.Brand href="#home" id="navBarTitle">
             Fox Valley Painters
