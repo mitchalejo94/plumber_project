@@ -5,6 +5,9 @@
   color: white; /* Replace 'your-desired-text-color' with the color you want */
   text-decoration: none;
 }
+.lighter-text {
+  color: lightgray; /* Change to the desired lighter color */
+}
 /* .footerContainer {
   border: solid blue;
   background-color: white;

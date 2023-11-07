@@ -1,13 +1,29 @@
 import "./Footer.css";
 import youtubeSvg from "../../assets/images/youtube.svg";
 import facebookPng from "../../assets/images/facebook.png";
+import fvpLogo from "../../assets/images/FVPLOGO.svg";
+
 const Footer = () => {
   return (
     <footer
       // style={{ backgroundColor: "gray" }}
       className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top navbar navbar-dark bg-dark"
     >
-      <p className="col-md-4 mb-0 ">© 2023 Fox Valley Painters, LLC</p>
+      <p className="col-md-3 mb-0 lighter-text">
+        {" "}
+        <img
+          id="fvpLogo"
+          src={fvpLogo}
+          alt="FVP Logo"
+          style={{
+            width: "60px",
+            height: "auto",
+            padding: "0",
+            margin: "0",
+          }}
+        />
+        {""}© 2023 Fox Valley Painters, LLC
+      </p>
       <div className="logos">
         <a
           href="https://www.facebook.com/profile.php?id=100064004774579&mibextid=LQQJ4d"
