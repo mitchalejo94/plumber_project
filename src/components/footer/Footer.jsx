@@ -7,22 +7,22 @@ const Footer = () => {
   return (
     <footer
       // style={{ backgroundColor: "gray" }}
-      className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top navbar navbar-dark bg-dark"
+      className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top navbar "
     >
-      <p className="col-md-3 mb-0 lighter-text">
+      <p className=" name-logo">
         {" "}
         <img
           id="fvpLogo"
           src={fvpLogo}
           alt="FVP Logo"
           style={{
-            width: "60px",
+            width: "10rem",
             height: "auto",
             padding: "0",
             margin: "0",
           }}
         />
-        {""}© 2023 Fox Valley Painters, LLC
+        <div className="copyright">{""}© 2023 Fox Valley Painters, LLC</div>
       </p>
       <div className="logos">
         <a

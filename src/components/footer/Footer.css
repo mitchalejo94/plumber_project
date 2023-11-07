@@ -1,5 +1,6 @@
 .logos img {
   max-width: 4rem;
+  border: solid red;
 }
 .footer a {
   color: white; /* Replace 'your-desired-text-color' with the color you want */
@@ -8,12 +9,15 @@
 .lighter-text {
   color: lightgray; /* Change to the desired lighter color */
 }
-/* .footerContainer {
-  border: solid blue;
-  background-color: white;
-  font-size: 15px;
+.name-logo {
+  font-size: 20px;
+  width: 30rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
+}
+.copyright {
+  margin-top: 35px;
+  margin-left: -20px;
 }
 .footerText {
   color: black;
@@ -28,16 +32,10 @@
   color: inherit;
 }
 
-.footerLogos img {
-  max-width: 40px; 
-  border: solid green;
-  display: flex;
-  justify-content: flex-end;
-}
 #llc {
   border: solid blue;
 }
 .footerLogos {
   display: inline;
   font-size: 2px;
-} */
+}
