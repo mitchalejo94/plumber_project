@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer
       // style={{ backgroundColor: "gray" }}
-      className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top navbar "
+      className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top navbar footerContainer "
     >
       <p className=" name-logo">
         {" "}
@@ -62,7 +62,7 @@ const Footer = () => {
           </svg>
         </a>
       </div>
-      <ul className="nav col-md-4 justify-content-end">
+      <ul className="nav col-md-4 justify-content-end footerLinks">
         <li className="nav-item">
           <a href="/" className="nav-link px-2">
             Home

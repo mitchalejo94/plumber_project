@@ -23,7 +23,7 @@
   margin: 0 auto;
   padding: 0; /* Center the container horizontally in the header */
   /* border: solid white; */
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 3em #61dafbaa);
   margin-top: -6rem;
 }
 .content-container {

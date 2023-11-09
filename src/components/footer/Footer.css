@@ -1,41 +1,55 @@
-.logos img {
+/*Facebook and youtube logo*/
+.logos {
   max-width: 4rem;
-  border: solid red;
+  display: flex;
+  margin-top: -20px;
+  /* align-items: flex-end; */
+  /* justify-content: space-between; */
 }
-.footer a {
-  color: white; /* Replace 'your-desired-text-color' with the color you want */
-  text-decoration: none;
+
+.logos a:last-child {
+  margin-left: 10px;
 }
-.lighter-text {
-  color: lightgray; /* Change to the desired lighter color */
-}
+
+/*Copyright and FVP logo*/
 .name-logo {
   font-size: 20px;
   width: 30rem;
   display: flex;
   justify-content: left;
 }
+
+/*Copyright only*/
 .copyright {
   margin-top: 35px;
   margin-left: -20px;
 }
-.footerText {
-  color: black;
-  border: solid red;
-  text-decoration: none;
-  color: inherit;
-}
-.footerLinks {
-  color: black;
-  border: solid yellow;
-  text-decoration: none;
-  color: inherit;
+/*FVP logo only*/
+#fvpLogo {
+  filter: drop-shadow(0 0 1em black);
 }
 
-#llc {
-  border: solid blue;
+/* IndividualmFooter Links */
+.footerLinks .nav-link {
+  text-decoration: none;
+  color: gray;
+  /* border: solid red; */
 }
-.footerLogos {
-  display: inline;
-  font-size: 2px;
+.footerLinks .nav-link:hover {
+  color: white;
+}
+
+/*Border link container*/
+.footerLinks {
+  margin-top: -20px;
+  margin-left: 30px;
+}
+.footerContainer {
+  border: solid white;
+  position: fixed;
+  bottom: -20px;
+  height: -300px;
+  width: 93.5%;
+  z-index: 100;
+  padding-top: 400px;
 }
