@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer
       // style={{ backgroundColor: "gray" }}
-      className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top navbar footerContainer "
+      className=" footerContainer "
     >
       <p className=" name-logo">
         {" "}
@@ -22,8 +22,8 @@ const Footer = () => {
             margin: "0",
           }}
         />
-        <div className="copyright">{""}© 2023 Fox Valley Painters, LLC</div>
       </p>
+      <div className="copyright">{""}© 2023 Fox Valley Painters, LLC</div>
       <div className="logos">
         <a
           href="https://www.facebook.com/profile.php?id=100064004774579&mibextid=LQQJ4d"
@@ -35,8 +35,8 @@ const Footer = () => {
             src={facebookPng}
             alt="Facebook Icon"
             style={{
-              width: "30px",
-              height: "30px",
+              width: "40px",
+              height: "40px",
               padding: "0",
             }}
           />
@@ -53,8 +53,8 @@ const Footer = () => {
             src={youtubeSvg}
             alt="YouTube Icon"
             style={{
-              width: "30px",
-              height: "30px",
+              width: "40px",
+              height: "40px",
             }}
           />
           <svg className="bi me-2" width="20" height="32">
@@ -85,6 +85,22 @@ const Footer = () => {
         </li>
       </ul>
     </footer>
+    // <footer class="MuiBox-root css-9jyc04">
+    //   <div class="MuiContainer-root MuiContainer-maxWidthSm css-1m6pqln">
+    //     <p class="MuiTypography-root MuiTypography-body1 css-9l3uo3">
+    //       My sticky footer can be found here.
+    //     </p>
+    //     <p class="MuiTypography-root MuiTypography-body2 css-u30lmt">
+    //       Copyright ©{" "}
+    //       <a
+    //         class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1i1yl23"
+    //         href="https://mui.com/"
+    //       >
+    //         Your Website
+    //       </a>{" "}
+    //     </p>
+    //   </div>
+    // </footer>
   );
 };
 export default Footer;

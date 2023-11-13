@@ -8,7 +8,7 @@ const NavigationBar = () => {
     <div className="navigationBar">
       <Navbar className="navbar navbar-dark bg-dark" expand="lg">
         <Container>
-          <Navbar.Brand href="#home" id="navBarTitle">
+          <Navbar.Brand href="/" id="navBarTitle">
             Fox Valley Painters
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
