@@ -3,7 +3,10 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div className="jumbotron" id="contact">
-      <h1 id="">For a free estimate contact us at ____ </h1>
+      <h1 id="">
+        Contact us today to schedule an appointment and receive a comprehensive
+        estimate tailored to your project needs.{" "}
+      </h1>
       <h1>Include link for youtube and Facebook.</h1>
       <h1>Business hours </h1>
       <div>

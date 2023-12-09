@@ -3,19 +3,20 @@ import "./about.css";
 const About = () => {
   return (
     <div className="jumbotron">
-      <h1>
-        This is our About Us page Who we are? How long have been in the field?
-        What locations do we cover?
-      </h1>
-      <div>
-        <iframe
-          src="https://storage.googleapis.com/maps-solutions-l6gd01pz5d/locator-plus/q1y7/locator-plus.html"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          loading="lazy"
-        ></iframe>
-      </div>
+      <h2>
+        With over 15 years of dedicated experience in the contracting industry,
+        our team proudly serves the Chicago land area, offering exceptional
+        services in both Spanish and English languages. We have established
+        ourselves as specialists in a wide array of services, including General
+        Remodeling, Electric Work, Plumbing, Painting, Drywall, Framing, Wood
+        Floor Installation, and Tile Installation. Our commitment to excellence
+        drives us to deliver top-notch craftsmanship, ensuring each project is
+        handled with precision and care. We take pride in transforming spaces
+        and exceeding expectations, bringing visions to life through our
+        expertise and attention to detail. Trust us to elevate your projects
+        with professionalism, skill, and a dedication to delivering outstanding
+        results that stand the test of time.
+      </h2>
     </div>
   );
 };
