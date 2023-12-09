@@ -1,61 +1,10 @@
-/*Facebook and youtube logo */
-.logos {
-  max-width: 4rem;
-  display: flex;
-  margin-top: -20px;
-  height: 30px;
-}
-
-.logos a:last-child {
-  margin-left: 10px;
-}
-
-/*Copyright and FVP logo*/
-.name-logo {
-  font-size: 20px;
-  width: 30rem;
-  display: flex;
-  justify-content: left;
-}
-
-/*Copyright only*/
-.copyright {
-  margin-top: 40px;
-  margin-left: -20px;
-}
-/*FVP logo only*/
-#fvpLogo {
-  filter: drop-shadow(0 0 1em black);
-}
-
-/* IndividualmFooter Links */
-.footerLinks .nav-link {
-  text-decoration: none;
-  color: gray;
-  /* border: solid red; */
-}
-.footerLinks .nav-link:hover {
-  color: white;
-}
-
-/*Border link container*/
-.footerLinks {
-  margin-top: -20px;
-  margin-left: 30px;
-}
 .footerContainer {
   margin-top: 25px;
   border: solid white;
   /* height: 130px; */
   background: linear-gradient(to bottom, #0f0606, #6d6875);
-
-  font-size: 25px;
-  color: white;
   font-family: "Oswald", sans-serif;
-}
-
-@media screen and (max-width: 370px) {
-  .footerLinks .nav-item .nav-link {
-    visibility: hidden;
-  }
+  color: white;
+  -webkit-text-stroke: 0.7px red;
+  font-size: 25px;
 }

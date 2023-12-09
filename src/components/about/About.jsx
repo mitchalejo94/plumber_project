@@ -4,7 +4,7 @@ import fvpTruck from "../../assets/images/fvpTruck.jpeg";
 
 const About = () => {
   return (
-    <div className="jumbotron">
+    <div className="jumbotron" id="about">
       <h2>About Us:</h2>
       <p>
         With over 15 years of experience in the contracting industry, our team
