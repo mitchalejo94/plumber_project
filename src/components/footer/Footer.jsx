@@ -7,6 +7,17 @@ const { Footer } = Layout;
 const Footers = () => {
   return (
     <Footer className="footerContainer">
+      <img
+        id="fvpLogo"
+        src={fvpLogo}
+        alt="FVP Logo"
+        style={{
+          width: "10rem",
+          height: "auto",
+          padding: "0",
+          margin: "0",
+        }}
+      />
       <a href="https://www.youtube.com/user/sonido51">
         <img
           id="youtubeLogo"
@@ -31,18 +42,8 @@ const Footers = () => {
           }}
         />
       </a>
-      <img
-        id="fvpLogo"
-        src={fvpLogo}
-        alt="FVP Logo"
-        style={{
-          width: "10rem",
-          height: "auto",
-          padding: "0",
-          margin: "0",
-        }}
-      />
-      © 2023 Fox Valley Painters, LLC
+
+      <div className="footerTitle"> © 2023 Fox Valley Painters, LLC </div>
     </Footer>
   );
 };

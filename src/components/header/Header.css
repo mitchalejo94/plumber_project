@@ -35,13 +35,17 @@
     /* border: solid white; */
   }
   .FoxValleyTitle {
-    font-size: 4rem;
-    /* border: solid white; */
+    display: none;
   }
   .logo-container {
     margin-top: -4rem;
   }
   .content-container {
     margin-top: -4rem;
+  }
+  .phoneTag {
+    text-decoration: none;
+    color: inherit;
+    font-size: 3rem;
   }
 }

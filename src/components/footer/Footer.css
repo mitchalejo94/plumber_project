@@ -8,3 +8,9 @@
   -webkit-text-stroke: 0.7px red;
   font-size: 25px;
 }
+
+@media screen and (max-width: 768px) {
+  .footerTitle {
+    display: none;
+  }
+}
