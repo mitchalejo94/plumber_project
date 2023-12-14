@@ -18,11 +18,8 @@ const Header = () => {
       </div>
       <div className="content-container">
         <h1 className="FoxValleyTitle">
-          {""}
-          {""}
-          Fox Valley Painters {"    "}
+          <div className="fvpTitle">Fox Valley Painters</div>
           <a className="phoneTag" href="tel:8473466654">
-            {" "}
             847-346-6654
           </a>
         </h1>

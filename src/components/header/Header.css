@@ -34,8 +34,8 @@
     font-size: 15px;
     /* border: solid white; */
   }
-  .FoxValleyTitle {
-    display: none;
+  .fvpTitle {
+    font-size: 5rem;
   }
   .logo-container {
     margin-top: -4rem;
@@ -46,6 +46,6 @@
   .phoneTag {
     text-decoration: none;
     color: inherit;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }

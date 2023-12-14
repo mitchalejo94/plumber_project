@@ -8,7 +8,7 @@ const Footers = () => {
   return (
     <Footer className="footerContainer">
       <img
-        id="fvpLogo"
+        id="fvpLogoFooter"
         src={fvpLogo}
         alt="FVP Logo"
         style={{

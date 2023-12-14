@@ -13,4 +13,18 @@
   .footerTitle {
     display: none;
   }
+  #facebookLogo {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+
+  #youtubeLogo {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+  #fvpLogoFooter {
+    display: none;
+  }
 }
