@@ -12,3 +12,9 @@
   font-size: 40px;
   text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+  .jobList {
+    font-size: 25px;
+  }
+}

@@ -29,3 +29,19 @@
 .content-container {
   margin-top: -6rem;
 }
+@media screen and (max-width: 768px) {
+  #header {
+    font-size: 15px;
+    /* border: solid white; */
+  }
+  .FoxValleyTitle {
+    font-size: 4rem;
+    /* border: solid white; */
+  }
+  .logo-container {
+    margin-top: -4rem;
+  }
+  .content-container {
+    margin-top: -4rem;
+  }
+}
