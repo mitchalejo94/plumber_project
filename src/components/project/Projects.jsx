@@ -1,71 +1,29 @@
 import "./Projects.css";
-import { Carousel } from "antd";
-import Basement from "../../assets/images/Projects/BasementRemodel.jpg";
-import ceiling from "../../assets/images/Projects/ceiling.jpg";
-import Deck from "../../assets/images/Projects/Deck.jpg";
-import DeckStairs from "../../assets/images/Projects/DeckStairs.jpg";
-import kitchenSink from "../../assets/images/Projects/kitchenSink.jpeg";
-import Plumbing from "../../assets/images/Projects/Plumbing.jpg";
-import Shower from "../../assets/images/Projects/Shower.jpg";
-import WastePump from "../../assets/images/Projects/WastePump.jpg";
-import BRoom from "../../assets/images/Projects/BRoom.jpg";
-
-const contentStyle = {
-  height: "500px",
-};
+import CarouselImages from "../CarouselImages/CarouselImages";
 
 const Project = () => {
   return (
     <>
-      <Carousel autoplay>
-        <div>
-          <h3 style={contentStyle}>
-            <img src={Basement} />
-          </h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>
-            <img src={BRoom} />
-          </h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>
-            <img src={Shower} />
-          </h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>
-            <img src={DeckStairs} />
-          </h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>
-            <img src={WastePump} />
-          </h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>
-            <img src={kitchenSink} />
-          </h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>
-            <img src={Plumbing} />
-          </h3>
-        </div>
-
-        <div>
-          <h3 style={contentStyle}>
-            <img src={Deck} />
-          </h3>
-        </div>
-
-        <div>
-          <h3 style={contentStyle}>
-            <img src={ceiling} alt="" />
-          </h3>
-        </div>
-      </Carousel>
+      <div className="jumbotron" id="contact">
+        <p>
+          Take a moment to explore our diverse portfolio of completed projects.
+          At Fox Valley Painters, we pride ourselves on our versatility,
+          ensuring that no project is too big or small. From intricate designs
+          to comprehensive renovations, our gallery exhibits a testament to our
+          craftsmanship and commitment to excellence. We're here to bring your
+          visions to life.
+        </p>
+        <p>
+          Tómese un momento para explorar nuestro diverso portafolio de
+          proyectos completados. En Fox Valley Painters, nos enorgullecemos de
+          nuestra versatilidad, asegurando que ningún proyecto sea demasiado
+          grande o pequeño. Desde diseños intrincados hasta renovaciones
+          integrales, nuestra galería exhibe un testimonio de nuestra artesanía
+          y compromiso con la excelencia. Estamos aquí para dar vida a sus
+          visiones.
+        </p>
+      </div>
+      <CarouselImages />
     </>
   );
 };

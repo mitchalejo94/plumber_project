@@ -19,9 +19,11 @@ const Header = () => {
       <div className="content-container">
         <h1 className="FoxValleyTitle">
           <div className="fvpTitle">Fox Valley Painters</div>
-          <a className="phoneTag" href="tel:8473466654">
-            847-346-6654
-          </a>
+          <div className="phoneTag">
+            <a id="phoneTagid" href="tel:8473466654">
+              847-346-6654
+            </a>
+          </div>
         </h1>
       </div>
     </div>

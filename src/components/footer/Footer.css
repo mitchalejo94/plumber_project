@@ -1,10 +1,10 @@
 .footerContainer {
   margin-top: 25px;
-  border: solid white;
+  border: solid #dad7cd 0.7px;
   /* height: 130px; */
   background: linear-gradient(to bottom, #0f0606, #6d6875);
   font-family: "Oswald", sans-serif;
-  color: white;
+  color: #dad7cd;
   -webkit-text-stroke: 0.7px red;
   font-size: 25px;
 }

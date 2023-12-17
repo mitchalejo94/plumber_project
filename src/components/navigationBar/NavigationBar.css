@@ -2,18 +2,18 @@
   font-weight: bolder;
 }
 .navigationBar {
-  border: solid #e0dcdc;
+  border: solid #dad7cd 0.7px;
   margin-bottom: 1rem;
 }
 .navbar {
   background: linear-gradient(to bottom, #0f0606, #6d6875);
   font-size: 17px;
-  color: white;
+  color: #dad7cd;
   font-family: "Oswald", sans-serif;
 }
 #navBarTitle {
   font-size: 25px;
-  color: white;
+  color: #dad7cd;
   -webkit-text-stroke: 0.7px red;
   font-family: "Oswald", sans-serif;
 }
