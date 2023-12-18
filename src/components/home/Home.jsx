@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <div>
       <div className="jumbotron" id="homeJumbotron">
-        {/* <h1 className="display-4">Fox Valley Painters</h1> */}
         <p className="jobList">
           <li>General Remodeling</li>
           <li>Electric Work</li>

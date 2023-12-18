@@ -19,6 +19,6 @@
     font-size: 30px;
   }
   #homeJumbotron {
-    background-size: cover; /* Adjust to contain the background image within the container */
+    background-size: cover;
   }
 }
