@@ -16,7 +16,8 @@
 
 @media screen and (max-width: 768px) {
   .jobList {
-    font-size: 30px;
+    font-size: 20px;
+    -webkit-text-stroke: 1px red;
   }
   #homeJumbotron {
     background-size: cover;

@@ -3,10 +3,12 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div className="jumbotron" id="contact">
+      <h2>Contact Us:</h2>
       <p>
         Contact us today to schedule an appointment and receive a comprehensive
         estimate tailored to your project needs.
       </p>
+      <h2>Contáctenos:</h2>
       <p>
         Contáctenos hoy para programar una cita y recibir un presupuesto
         integral adaptado a las necesidades de su proyecto.

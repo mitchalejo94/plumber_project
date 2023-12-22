@@ -23,10 +23,10 @@ const About = () => {
         nuestro equipo sirve con orgullo el área metropolitana de Chicago,
         ofreciendo servicios excepcionales en español e inglés. Nos hemos
         establecido como especialistas en una amplia gama de servicios, que
-        incluyen Remodelación General, Trabajos Eléctricos, Enmarcar, Pintura,
-        Instalación de Tablaroca, Estructuras, Instalación de Pisos de Madera e
-        Instalación de Azulejos. Nuestro compromiso con la excelencia nos
-        impulsa a entregar artesanía de primera calidad, asegurando que cada
+        incluyen Remodelación General, Trabajos Eléctricos, Enmarcar, Plomeria,
+        Pintura, Instalación de Tablaroca, Estructuras, Instalación de Pisos de
+        Madera e Instalación de Azulejos. Nuestro compromiso con la excelencia
+        nos impulsa a entregar artesanía de primera calidad, asegurando que cada
         proyecto sea manejado con precisión y cuidado. Nos enorgullecemos de
         transformar espacios y superar expectativas, dando vida a sus visiones.
       </p>
