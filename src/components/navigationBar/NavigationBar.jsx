@@ -2,22 +2,31 @@ import "./NavigationBar.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
     <div className="navigationBar">
       <Navbar className="navbar navbar-dark bg-dark" expand="lg">
         <Container>
-          <Navbar.Brand href="/" id="navBarTitle">
+          <Link to="/" className="navbar-brand" id="navBarTitle">
             Fox Valley Painters
-          </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About Us</Nav.Link>
-              <Nav.Link href="/project">Projects</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+              <Link to="/about" className="nav-link">
+                About Us
+              </Link>
+              <Link to="/project" className="nav-link">
+                Projects
+              </Link>
+              <Link to="/contact" className="nav-link">
+                Contact
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
